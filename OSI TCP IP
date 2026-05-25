@@ -1,0 +1,66 @@
+# OSI/TCP IP 
+OSI é um modelo teórico de 7 camadas.
+TCP/IP é o modelo mais usado na prática na Internet, com 4 camadas.
+
+Modelo OSI — 7 camadas
+
+De cima para baixo:
+
+Aplicação — onde ficam serviços como navegador, e-mail, DNS, HTTP.
+Apresentação — formato dos dados, criptografia, compressão.
+Sessão — controla sessões/conexões entre aplicações.
+Transporte — divide e remonta dados. Exemplo: TCP/UDP.
+Rede — endereçamento IP e roteamento.
+Enlace de dados — endereço MAC, quadros Ethernet, switch, FCS.
+Física — bits, cabos, fibra, Wi-Fi, sinais elétricos/rádio.
+Modelo TCP/IP — 4 camadas
+
+O TCP/IP junta algumas camadas do OSI:
+
+Aplicação TCP/IP = Aplicação + Apresentação + Sessão do OSI
+Transporte TCP/IP = Transporte do OSI
+Internet TCP/IP = Rede do OSI
+Acesso à Rede TCP/IP = Enlace de Dados + Física do OSI
+
+Fica assim:
+
+TCP/IP	OSI
+Aplicação	Aplicação, Apresentação, Sessão
+Transporte	Transporte
+Internet	Rede
+Acesso à Rede	Enlace de Dados, Física
+Como o processo funciona
+
+Quando você envia uma mensagem, acessa um site ou manda um arquivo, os dados descem pelas camadas.
+
+Exemplo: você acessa um site.
+
+Na Aplicação, o navegador usa HTTP/HTTPS.
+Na Transporte, o TCP divide os dados em segmentos.
+Na Internet/Rede, entra o IP, que define origem e destino.
+Na Acesso à Rede/Enlace, entra o MAC e o quadro Ethernet.
+Na Física, tudo vira bits e sinais no cabo, fibra ou Wi-Fi.
+
+O caminho seria:
+
+Dados → Segmento → Pacote → Quadro → Bits
+
+Isso é o que apareceu nas questões como encapsulamento.
+
+Diferença principal
+
+O OSI explica melhor, com mais detalhes.
+O TCP/IP é mais direto e usado na prática.
+
+Exemplo das questões:
+
+Quando pergunta sobre camada física, está falando de transmitir bits no meio físico.
+Quando pergunta sobre enlace, está falando de MAC, switch, quadro Ethernet, FCS.
+Quando pergunta sobre transporte, está falando de segmentar e remontar dados.
+Quando pergunta sobre camada de aplicação do TCP/IP, ela junta aplicação, apresentação e sessão do OSI.
+
+Resumo para guardar:
+
+OSI = modelo de estudo, 7 camadas.
+TCP/IP = modelo usado na Internet, 4 camadas.
+TCP/IP agrupa algumas camadas do OSI.
