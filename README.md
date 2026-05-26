@@ -1102,6 +1102,959 @@ Privados → usados dentro da rede local
 Públicos → usados na internet
 ```
 
+# 🌐 Glossário de Siglas de Redes de Computadores
+
+Este material reúne siglas importantes do mundo de redes, explicadas de forma simples para iniciantes.
+
+---
+
+# 📌 IP — Internet Protocol
+
+O IP é o protocolo responsável por identificar dispositivos em uma rede.
+
+Exemplo:
+
+```txt
+192.168.1.10
+```
+
+Ele funciona como o endereço de um dispositivo.
+
+---
+
+# 📌 IPv4 — Internet Protocol Version 4
+
+É a versão 4 do protocolo IP.
+
+Exemplo:
+
+```txt
+192.168.1.10
+```
+
+Possui 32 bits e é formado por 4 octetos.
+
+---
+
+# 📌 IPv6 — Internet Protocol Version 6
+
+É a versão mais nova do protocolo IP.
+
+Foi criada porque os endereços IPv4 começaram a acabar.
+
+Exemplo:
+
+```txt
+2001:0db8:85a3::8a2e:0370:7334
+```
+
+---
+
+# 📌 MAC — Media Access Control
+
+É o endereço físico da placa de rede.
+
+Exemplo:
+
+```txt
+00:1A:2B:3C:4D:5E
+```
+
+Enquanto o IP pode mudar, o MAC é ligado ao hardware da placa de rede.
+
+---
+
+# 📌 NIC — Network Interface Card
+
+É a placa de rede do dispositivo.
+
+Pode ser:
+
+```txt
+Placa Ethernet
+Adaptador Wi-Fi
+Interface virtual
+```
+
+---
+
+# 📌 LAN — Local Area Network
+
+Rede local.
+
+Exemplo:
+
+```txt
+Rede da sua casa
+Rede de uma escola
+Rede de uma empresa
+```
+
+---
+
+# 📌 WAN — Wide Area Network
+
+Rede de longa distância.
+
+Exemplo:
+
+```txt
+A internet
+Rede entre filiais de empresas
+```
+
+---
+
+# 📌 WLAN — Wireless Local Area Network
+
+Rede local sem fio.
+
+Exemplo:
+
+```txt
+Wi-Fi da sua casa
+Wi-Fi de uma empresa
+```
+
+---
+
+# 📌 MAN — Metropolitan Area Network
+
+Rede que cobre uma área metropolitana.
+
+Exemplo:
+
+```txt
+Rede entre prédios de uma cidade
+```
+
+---
+
+# 📌 PAN — Personal Area Network
+
+Rede pessoal de curto alcance.
+
+Exemplo:
+
+```txt
+Bluetooth entre celular e fone
+```
+
+---
+
+# 📌 TCP — Transmission Control Protocol
+
+Protocolo que garante entrega confiável dos dados.
+
+Ele verifica se os dados chegaram corretamente.
+
+Muito usado em:
+
+```txt
+Sites
+E-mails
+Downloads
+```
+
+---
+
+# 📌 UDP — User Datagram Protocol
+
+Protocolo mais rápido, porém sem garantia de entrega.
+
+Muito usado em:
+
+```txt
+Jogos online
+Chamadas de vídeo
+Streaming
+```
+
+---
+
+# 📌 HTTP — HyperText Transfer Protocol
+
+Protocolo usado para acessar páginas da web.
+
+Exemplo:
+
+```txt
+http://site.com
+```
+
+---
+
+# 📌 HTTPS — HyperText Transfer Protocol Secure
+
+Versão segura do HTTP.
+
+Usa criptografia para proteger os dados.
+
+Exemplo:
+
+```txt
+https://site.com
+```
+
+---
+
+# 📌 DNS — Domain Name System
+
+Traduz nomes de sites em endereços IP.
+
+Exemplo:
+
+```txt
+google.com → endereço IP do Google
+```
+
+É como uma agenda telefônica da internet.
+
+---
+
+# 📌 DHCP — Dynamic Host Configuration Protocol
+
+Protocolo que entrega IP automaticamente para os dispositivos.
+
+Exemplo:
+
+```txt
+Seu celular entra no Wi-Fi e recebe um IP sozinho.
+```
+
+---
+
+# 📌 NAT — Network Address Translation
+
+Permite que vários dispositivos usem um único IP público para acessar a internet.
+
+Exemplo:
+
+```txt
+Celular
+Notebook
+TV
+Videogame
+```
+
+Todos saem para internet usando o IP público do roteador.
+
+---
+
+# 📌 ARP — Address Resolution Protocol
+
+Descobre o endereço MAC de um dispositivo a partir do endereço IP.
+
+Exemplo:
+
+```txt
+Quem tem o IP 192.168.1.10?
+```
+
+O dispositivo responde com seu MAC.
+
+---
+
+# 📌 ICMP — Internet Control Message Protocol
+
+Usado para mensagens de controle e testes de rede.
+
+O comando `ping` usa ICMP.
+
+Exemplo:
+
+```bash
+ping 8.8.8.8
+```
+
+---
+
+# 📌 FTP — File Transfer Protocol
+
+Protocolo usado para transferência de arquivos.
+
+---
+
+# 📌 SFTP — SSH File Transfer Protocol
+
+Versão segura para transferência de arquivos usando SSH.
+
+---
+
+# 📌 SSH — Secure Shell
+
+Protocolo usado para acessar servidores remotamente com segurança.
+
+Exemplo:
+
+```bash
+ssh usuario@servidor
+```
+
+---
+
+# 📌 Telnet
+
+Protocolo antigo para acesso remoto.
+
+Não é seguro, pois não usa criptografia.
+
+---
+
+# 📌 SMTP — Simple Mail Transfer Protocol
+
+Usado para envio de e-mails.
+
+---
+
+# 📌 POP3 — Post Office Protocol Version 3
+
+Usado para baixar e-mails do servidor para o dispositivo.
+
+---
+
+# 📌 IMAP — Internet Message Access Protocol
+
+Usado para acessar e-mails mantendo as mensagens sincronizadas no servidor.
+
+---
+
+# 📌 URL — Uniform Resource Locator
+
+É o endereço de um recurso na internet.
+
+Exemplo:
+
+```txt
+https://www.google.com
+```
+
+---
+
+# 📌 URI — Uniform Resource Identifier
+
+Identifica um recurso.
+
+A URL é um tipo de URI.
+
+---
+
+# 📌 ISP — Internet Service Provider
+
+Provedor de internet.
+
+Exemplo:
+
+```txt
+Claro
+Vivo
+TIM
+Oi
+```
+
+---
+
+# 📌 VPN — Virtual Private Network
+
+Cria uma conexão segura entre o dispositivo e outra rede.
+
+Muito usada para:
+
+```txt
+Privacidade
+Acesso remoto
+Trabalho remoto
+Segurança
+```
+
+---
+
+# 📌 VLAN — Virtual Local Area Network
+
+Permite dividir uma rede física em redes lógicas separadas.
+
+Exemplo:
+
+```txt
+VLAN dos alunos
+VLAN dos professores
+VLAN administrativa
+```
+
+---
+
+# 📌 WLAN — Wireless LAN
+
+Rede local sem fio, normalmente Wi-Fi.
+
+---
+
+# 📌 SSID — Service Set Identifier
+
+É o nome da rede Wi-Fi.
+
+Exemplo:
+
+```txt
+MinhaCasa_5G
+```
+
+---
+
+# 📌 WPA — Wi-Fi Protected Access
+
+Padrão de segurança para redes Wi-Fi.
+
+---
+
+# 📌 WPA2 — Wi-Fi Protected Access 2
+
+Versão mais segura que o WPA.
+
+Ainda é muito usada.
+
+---
+
+# 📌 WPA3 — Wi-Fi Protected Access 3
+
+Versão mais moderna e segura de proteção Wi-Fi.
+
+---
+
+# 📌 AP — Access Point
+
+Ponto de acesso Wi-Fi.
+
+É o equipamento que permite que dispositivos se conectem sem fio à rede.
+
+---
+
+# 📌 SSID Broadcast
+
+É quando o roteador divulga o nome da rede Wi-Fi para os dispositivos encontrarem.
+
+---
+
+# 📌 BSSID — Basic Service Set Identifier
+
+É o endereço MAC do ponto de acesso Wi-Fi.
+
+---
+
+# 📌 OSI — Open Systems Interconnection
+
+Modelo usado para entender como a comunicação de rede funciona.
+
+Possui 7 camadas:
+
+```txt
+1. Física
+2. Enlace
+3. Rede
+4. Transporte
+5. Sessão
+6. Apresentação
+7. Aplicação
+```
+
+---
+
+# 📌 TCP/IP
+
+Modelo usado na prática para comunicação na internet.
+
+Possui camadas como:
+
+```txt
+Acesso à rede
+Internet
+Transporte
+Aplicação
+```
+
+---
+
+# 📌 PDU — Protocol Data Unit
+
+Nome dado aos dados em cada camada do modelo OSI.
+
+Exemplo:
+
+```txt
+Dados
+Segmento
+Pacote
+Quadro
+Bits
+```
+
+---
+
+# 📌 MTU — Maximum Transmission Unit
+
+Tamanho máximo de um pacote que pode passar por uma rede.
+
+---
+
+# 📌 TTL — Time To Live
+
+Define por quanto tempo um pacote pode circular na rede.
+
+Ajuda a evitar que pacotes fiquem circulando para sempre.
+
+---
+
+# 📌 QoS — Quality of Service
+
+Usado para priorizar tipos de tráfego.
+
+Exemplo:
+
+```txt
+Priorizar chamada de vídeo
+Priorizar voz
+Priorizar jogos
+```
+
+---
+
+# 📌 VoIP — Voice over IP
+
+Tecnologia que permite chamadas de voz pela internet.
+
+Exemplo:
+
+```txt
+WhatsApp
+Zoom
+Telefone IP
+```
+
+---
+
+# 📌 PoE — Power over Ethernet
+
+Permite transmitir energia elétrica pelo cabo de rede.
+
+Muito usado em:
+
+```txt
+Câmeras IP
+Telefones IP
+Access Points
+```
+
+---
+
+# 📌 Ethernet
+
+Tecnologia usada em redes cabeadas.
+
+Exemplo:
+
+```txt
+Cabo de rede conectado ao computador
+```
+
+---
+
+# 📌 UTP — Unshielded Twisted Pair
+
+Cabo de par trançado sem blindagem.
+
+Muito usado em redes Ethernet.
+
+---
+
+# 📌 STP — Shielded Twisted Pair
+
+Cabo de par trançado com blindagem.
+
+Ajuda a reduzir interferências.
+
+---
+
+# 📌 RJ-45
+
+Conector usado em cabos de rede Ethernet.
+
+---
+
+# 📌 ISP — Internet Service Provider
+
+Empresa que fornece acesso à internet.
+
+---
+
+# 📌 IANA — Internet Assigned Numbers Authority
+
+Organização responsável por coordenar blocos de endereços IP globalmente.
+
+---
+
+# 📌 RIR — Regional Internet Registry
+
+Registros regionais que distribuem endereços IP.
+
+Exemplos:
+
+```txt
+LACNIC
+ARIN
+RIPE NCC
+APNIC
+AfriNIC
+```
+
+---
+
+# 📌 LACNIC
+
+Registro responsável pela América Latina e parte do Caribe.
+
+---
+
+# 📌 ARIN
+
+Registro responsável pela América do Norte.
+
+---
+
+# 📌 APNIC
+
+Registro responsável pela região Ásia-Pacífico.
+
+---
+
+# 📌 RIPE NCC
+
+Registro responsável pela Europa, Oriente Médio e parte da Ásia Central.
+
+---
+
+# 📌 AfriNIC
+
+Registro responsável pela África.
+
+---
+
+# 📌 CIDR — Classless Inter-Domain Routing
+
+Forma moderna de representar redes.
+
+Exemplo:
+
+```txt
+192.168.1.0/24
+```
+
+O `/24` indica quantos bits pertencem à parte da rede.
+
+---
+
+# 📌 APIPA — Automatic Private IP Addressing
+
+Endereço automático usado quando o dispositivo não consegue obter IP pelo DHCP.
+
+Faixa:
+
+```txt
+169.254.0.1 até 169.254.255.254
+```
+
+---
+
+# 📌 Loopback
+
+Endereço usado pelo dispositivo para testar a si mesmo.
+
+Principal endereço:
+
+```txt
+127.0.0.1
+```
+
+Também conhecido como:
+
+```txt
+localhost
+```
+
+---
+
+# 📌 localhost
+
+Nome usado para se referir ao próprio computador.
+
+Exemplo:
+
+```txt
+127.0.0.1
+```
+
+---
+
+# 📌 NAT64
+
+Técnica usada para comunicação entre redes IPv6 e IPv4.
+
+---
+
+# 📌 PAT — Port Address Translation
+
+Tipo de NAT que usa portas para permitir que vários dispositivos compartilhem o mesmo IP público.
+
+Muito comum em roteadores domésticos.
+
+---
+
+# 📌 DMZ — Demilitarized Zone
+
+Área separada da rede usada para expor serviços com mais controle.
+
+Exemplo:
+
+```txt
+Servidor web
+Servidor de e-mail
+```
+
+---
+
+# 📌 ACL — Access Control List
+
+Lista de regras usada para permitir ou bloquear tráfego.
+
+Muito usada em roteadores, switches e firewalls.
+
+---
+
+# 📌 Firewall
+
+Sistema que filtra o tráfego de rede.
+
+Pode bloquear ou permitir conexões com base em regras.
+
+---
+
+# 📌 IDS — Intrusion Detection System
+
+Sistema que detecta possíveis invasões.
+
+Ele alerta, mas normalmente não bloqueia automaticamente.
+
+---
+
+# 📌 IPS — Intrusion Prevention System
+
+Sistema que detecta e também pode bloquear ameaças automaticamente.
+
+---
+
+# 📌 DoS — Denial of Service
+
+Ataque que tenta derrubar um serviço com excesso de requisições.
+
+---
+
+# 📌 DDoS — Distributed Denial of Service
+
+Ataque DoS feito por vários dispositivos ao mesmo tempo.
+
+---
+
+# 📌 SSL — Secure Sockets Layer
+
+Protocolo antigo de segurança para criptografia na internet.
+
+Foi substituído pelo TLS.
+
+---
+
+# 📌 TLS — Transport Layer Security
+
+Protocolo usado para proteger conexões na internet.
+
+É usado no HTTPS.
+
+---
+
+# 📌 CA — Certificate Authority
+
+Autoridade certificadora.
+
+Emite certificados digitais usados em conexões seguras.
+
+---
+
+# 📌 VPN Tunnel
+
+Túnel criptografado criado por uma VPN.
+
+---
+
+# 📌 Gateway
+
+Dispositivo que serve como saída para outra rede.
+
+Normalmente é o roteador.
+
+Exemplo:
+
+```txt
+Gateway padrão: 192.168.1.1
+```
+
+---
+
+# 📌 Default Gateway
+
+Gateway padrão configurado no dispositivo.
+
+É usado quando o destino está fora da rede local.
+
+---
+
+# 📌 Subnet
+
+Sub-rede.
+
+É uma divisão menor dentro de uma rede maior.
+
+---
+
+# 📌 Subnet Mask
+
+Máscara de sub-rede.
+
+Define qual parte do IP é rede e qual parte é host.
+
+Exemplo:
+
+```txt
+255.255.255.0
+```
+
+---
+
+# 📌 Broadcast
+
+Comunicação de um dispositivo para todos os dispositivos da rede.
+
+---
+
+# 📌 Multicast
+
+Comunicação de um dispositivo para um grupo específico.
+
+---
+
+# 📌 Unicast
+
+Comunicação de um dispositivo para outro dispositivo específico.
+
+---
+
+# 📌 SNMP — Simple Network Management Protocol
+
+Protocolo usado para monitorar equipamentos de rede.
+
+Exemplo:
+
+```txt
+Switches
+Roteadores
+Servidores
+Impressoras
+```
+
+---
+
+# 📌 NTP — Network Time Protocol
+
+Protocolo usado para sincronizar data e hora dos dispositivos na rede.
+
+---
+
+# 📌 SMB — Server Message Block
+
+Protocolo usado para compartilhamento de arquivos e impressoras em redes Windows.
+
+---
+
+# 📌 LDAP — Lightweight Directory Access Protocol
+
+Protocolo usado para acessar serviços de diretório.
+
+Exemplo:
+
+```txt
+Active Directory
+```
+
+---
+
+# 📌 AD — Active Directory
+
+Serviço da Microsoft usado para gerenciar usuários, computadores e permissões em uma rede.
+
+---
+
+# 📌 RDP — Remote Desktop Protocol
+
+Protocolo usado para acessar computadores Windows remotamente.
+
+---
+
+# 📌 ICANN — Internet Corporation for Assigned Names and Numbers
+
+Organização que coordena nomes de domínio e endereços na internet.
+
+---
+
+# 📌 Resumo Final
+
+As siglas de redes representam protocolos, tecnologias, equipamentos, padrões e serviços usados para permitir comunicação entre dispositivos.
+
+Algumas das mais importantes para iniciantes são:
+
+```txt
+IP
+IPv4
+IPv6
+MAC
+LAN
+WAN
+TCP
+UDP
+HTTP
+HTTPS
+DNS
+DHCP
+NAT
+ARP
+ICMP
+OSI
+TCP/IP
+VLAN
+VPN
+SSID
+WPA
+CIDR
+Gateway
+Subnet Mask
+```
+
+Entender essas siglas ajuda muito em áreas como:
+
+- Suporte técnico
+- Redes de computadores
+- Infraestrutura
+- Segurança da informação
+- Cybersegurança
+- Administração de sistemas
+- Cloud computing
+
 Entender esses conceitos é essencial para:
 
 - Redes de computadores
